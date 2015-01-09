@@ -9,7 +9,9 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
     
-    <Grid>
-
+    <Grid Background="Black">
+        <CaptureElement Name="CaptureElement">
+            
+        </CaptureElement>
     </Grid>
 </UserControl>

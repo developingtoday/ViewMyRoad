@@ -34,9 +34,10 @@ namespace ViewMyRoad
         /// </summary>
         /// <param name="e">Event data that describes how this page was reached.
         /// This parameter is typically used to configure the page.</param>
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected  override async  void OnNavigatedTo(NavigationEventArgs e)
         {
             // TODO: Prepare page for display here.
+             await CtrlRecord.SetupCameraViewFinder();
 
             // TODO: If your application contains multiple pages, ensure that you are
             // handling the hardware Back button by registering for the

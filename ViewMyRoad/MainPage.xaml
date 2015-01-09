@@ -6,10 +6,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:content="using:ViewMyRoad.Toolkit.Content"
+    xmlns:controls="using:ViewMyRoad.Controls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
     <Grid>
         <content:ctrlMap></content:ctrlMap>
+        <Grid Margin="10"
+              VerticalAlignment="Bottom" 
+              HorizontalAlignment="Right">
+            <controls:ctrlRecord x:Name="CtrlRecord" Width="200" Height="200"></controls:ctrlRecord>
+        </Grid>
     </Grid>
 </Page>
